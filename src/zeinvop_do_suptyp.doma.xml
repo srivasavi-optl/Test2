@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_DOMA" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD01V>
+    <DOMNAME>ZEINVOP_DO_SUPTYP</DOMNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <DATATYPE>CHAR</DATATYPE>
+    <LENG>000010</LENG>
+    <OUTPUTLEN>000010</OUTPUTLEN>
+    <VALEXI>X</VALEXI>
+    <DDTEXT>Domain for Supply</DDTEXT>
+    <DOMMASTER>E</DOMMASTER>
+   </DD01V>
+   <DD07V_TAB>
+    <DD07V>
+     <DOMNAME>ZEINVOP_DO_SUPTYP</DOMNAME>
+     <VALPOS>0001</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>B2B</DOMVALUE_L>
+     <DDTEXT>Business to Business</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEINVOP_DO_SUPTYP</DOMNAME>
+     <VALPOS>0002</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>SEZWP</DOMVALUE_L>
+     <DDTEXT>SEZ with payment</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEINVOP_DO_SUPTYP</DOMNAME>
+     <VALPOS>0003</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>SEZWOP</DOMVALUE_L>
+     <DDTEXT>SEZ without payment</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEINVOP_DO_SUPTYP</DOMNAME>
+     <VALPOS>0004</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>EXPWP</DOMVALUE_L>
+     <DDTEXT>Export with payment</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEINVOP_DO_SUPTYP</DOMNAME>
+     <VALPOS>0005</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>EXPWOP</DOMVALUE_L>
+     <DDTEXT>Export without payment</DDTEXT>
+    </DD07V>
+    <DD07V>
+     <DOMNAME>ZEINVOP_DO_SUPTYP</DOMNAME>
+     <VALPOS>0006</VALPOS>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <DOMVALUE_L>DEXP</DOMVALUE_L>
+     <DDTEXT>Deemed Export</DDTEXT>
+    </DD07V>
+   </DD07V_TAB>
+  </asx:values>
+ </asx:abap>
+</abapGit>
